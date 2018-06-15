@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tentsering.ticktactoe.Fragment2">
+
+
+    <LinearLayout
+        android:id="@+id/LinLay2"
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <RelativeLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="15dp">
+            <ImageView
+                android:id="@+id/redback"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/ic_launcher_background2" />
+
+            <ImageView
+                android:id="@+id/forewidget2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/ic_launcher_foreground"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tab2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Let the game \n\t\t\tBegin" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="221dp"
+        android:layout_height="217dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="200dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            tools:ignore="Suspicious0dp">
+
+            <TextView
+                android:id="@+id/cellone"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                tools:ignore="Suspicious0dp" />
+
+            <ImageView
+                android:id="@+id/celltwo"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                tools:ignore="Suspicious0dp"/>
+
+            <ImageView
+                android:id="@+id/cellthree"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                tools:ignore="Suspicious0dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="25dp"
+            tools:ignore="Suspicious0dp">
+
+            <ImageView
+
+                android:id="@+id/cellsix"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+
+                tools:ignore="Suspicious0dp" />
+
+            <ImageView
+                android:id="@+id/cellfive"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+
+                tools:ignore="Suspicious0dp" />
+
+            <ImageView
+                android:id="@+id/cellfour"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+
+                tools:ignore="Suspicious0dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="15dp"
+            tools:ignore="Suspicious0dp">
+
+            <ImageView
+                android:id="@+id/cellseven"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                tools:ignore="Suspicious0dp" />
+
+            <ImageView
+                android:id="@+id/celleight"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                tools:ignore="Suspicious0dp" />
+
+            <ImageView
+                android:id="@+id/cellnine"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                tools:ignore="Suspicious0dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="221dp"
+        android:layout_height="217dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/tic_tac_toe" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AlteredTheme1">
+        <item name="android:colorControlHighlight">@color/colorRed</item>
+    </style>
+
+    <style name="AlteredTheme2">
+        <item name="android:colorControlHighlight">@color/colorBlue</item>
+    </style>
+</resources>
